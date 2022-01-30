@@ -352,7 +352,7 @@ def sparrow_about_callback(update, context):
     query = update.callback_query
     if query.data == "sparrow_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Sparrow✘*, a powerful group management bot built to help you manage your group easily.
+            text=""" I'm *Sparrow✘*, a powerful group management bot built to help you manage your group easily.
                  \n◑ Warning system.
                  \n◑ Artificial intelligence.
                  \n◑ Flood control system.
