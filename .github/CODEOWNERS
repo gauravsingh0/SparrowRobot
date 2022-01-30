@@ -1,0 +1,6 @@
+# See https://help.github.com/articles/about-codeowners/ for valid syntax for entries.
+# Default owners for everything in the repo, unless a later match takes precedence
+
+# Phoenix owns the files under blacklist thingies
+/SparrowRobot/modules/blacklistusers.py @rsktg
+/SparrowRobot/modules/sql/blacklistusers_sql.py @rsktg
